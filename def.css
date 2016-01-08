@@ -1,0 +1,125 @@
+/*deve-se colocar esta informação entre comentarios de html!*/
+body{ 
+  background-color:#FFFEFC; /*cor de fundo*/
+  color:#515B5E;  /*cor do texto*/
+  /*margin: 50px;   margem à volta da pagina*/
+  /*margens especificas*/
+  /*margin-top: 20px;
+  margin-left: 120px;
+  margin-right: 50px; 
+  margin-bottom: 70px;*/
+  /*padding-bottom: 20px;*/
+  margin: 0;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+	  /* pode se escolher entre fonts sem ou com serifas
+	  font-family: Georgia, "Times New Roman", Times, 
+	  serif;*/
+  font-size:small; /*tamanho da font*/
+  line-height:180%; /* espaçamento entre linhas
+						 de 180% do tamanho da font*/
+}
+p{ 
+  text-indent:3em; /*indentação da primeira linha
+						dos paragrafos*/
+  text-align: justify;
+}
+p#special{
+    font-size: 11px;
+  font-style: italic;
+}
+hr {
+  color: #2E3233;
+}
+h3{ 
+  color:#2E3233;
+  font-family:Georgia, "Times New Roman", 
+	  Times, serif; 
+  text-decoration: none;
+}
+/*mudar cor do link nao visitado, mudando o comando a*/
+a:link { 
+  color: #4B8A79; 
+  text-decoration: none;
+}
+/*mudar cor do link visitado*/
+a:visited { 
+  color: #699; 
+  text-decoration: none;
+}
+/*mudar cor do link no estado em que se passa por cima*/
+a:hover{ 
+  color: #c93;
+  text-decoration: underline;
+}
+a:active{ 
+  color:#900;
+  text-decoration: underline;
+  background-color: transparent; 
+}
+#header{
+  position: relative;
+  text-align: center;
+  font-family: "Trebuchet MS",
+    Verdana, Geneva, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  height: 1em;
+  color: #515B5E;
+  background-color:#E2E3DF;
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+  line-height:80%;
+}
+#midsection{
+  position: relative;
+  background-color:#2E3233;
+  margin:0;
+  padding:0.5em;
+}
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  border-top: thin dotted 
+}
+.leftcol{
+  text-align: right;
+  width: 18%;
+  float: left;
+  line-height:230%;
+}
+.midcol {
+  padding-left: 36px;
+  width: 50%;
+  float: left
+}
+.rightcol {
+  line-height: 20px;
+  padding-left: 4%;
+  width: 21%;
+  float: left;
+}
+.leftcol a:hover {
+background-color: #EEF0EC; /* cor do fundo */
+color: #c93; /* cor da fonte */
+display:block; (*) 
+}
+ul#special { 
+    padding-left:4em;
+	list-style-type: none; /* retira o marcador de listas*/
+}
+ul#special li{
+  /*font-weight: bold;*/
+  font-style: italic;   
+}
+		
+#footer {
+  color: white;
+  font-size: 9px;
+  line-height: 16px;
+  background-color: #2E3233;
+  text-align: center;
+  letter-spacing: 6px;
+  height: 16px;
+  clear: left
+}
